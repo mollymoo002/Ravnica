@@ -186,21 +186,7 @@ ol li {
 /*All guild logos*/
 
 .GuildLogo {
-	width: 15%
-}
-
-/*Picture at the bottom of the page (man in red hoodie)*/
-
-.AllGuilds {
-	padding-top: 80px;
-	width: 100%
-}
-
-/*First picture on the Skills and Guilds page*/
-
-.IntroGuilds {
 	width: 50%;
-	padding-top: 100px;
 }
 
 /*This is the top of the guild descriptions that say the name in bold*/
@@ -227,7 +213,7 @@ table {
 	border-collapse: collapse;
 	table-layout: fixed;
 	width: 100%;
-	
+
 /*Colors for all Races*/
 
 }
@@ -315,6 +301,8 @@ table {
 	margin: 0 auto;
 }
 
+/*Created by Molly Cameron*/
+
 footer {
 	height: 20px;
 	padding-top: 50px;
@@ -329,7 +317,7 @@ footer {
 	.main li {
 		display: inline;
 	}
-	
+
 	.main {
 		position: fixed;
 		width: 100%;

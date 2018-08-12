@@ -12,4 +12,3 @@ function rollDice(){
         status.innerHTML += " DOUBLES!";
     }
 }
-
