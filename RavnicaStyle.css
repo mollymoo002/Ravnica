@@ -33,6 +33,9 @@ h1 {
 	flex-wrap: wrap;
 }
 
+.main a {
+	color: white;
+}
 
 .main a:visited {
 	color: white;
@@ -42,7 +45,7 @@ h1 {
 
 .main a:hover {
 	color: black;
-	background-color: #b7ffb5;
+	background-color: #84e3a0;
 	transform: scale(1.2);
 }
 
@@ -142,8 +145,12 @@ img {
 	padding: 10px 15px 20px 10px;
 }
 
-img .dice {
-	padding: 30px 15px 20px 20px;
+.Race {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 25%;
+	padding: 10px 15px 20px 10px;
 }
 
 p {
@@ -186,7 +193,21 @@ ol li {
 /*All guild logos*/
 
 .GuildLogo {
+	width: 50%
+}
+
+/*Picture at the bottom of the page (man in red hoodie)*/
+
+.AllGuilds {
+	padding-top: 80px;
+	width: 100%
+}
+
+/*First picture on the Skills and Guilds page*/
+
+.IntroGuilds {
 	width: 50%;
+	padding-top: 100px;
 }
 
 /*This is the top of the guild descriptions that say the name in bold*/
@@ -196,23 +217,6 @@ ol li {
 	display: block;
 	width: 100%;
 }
-
-/*Table for skills and specialized skills*/
-
-table, td {
-	 border: solid 3px black;
-	 border-spacing: 5px;
-	 padding: 15px;
-	 size: 20px;
-}
-
-/*Only tables are in Skills and Guilds*/
-
-table {
-	border-spacing: 0.5rem;
-	border-collapse: collapse;
-	table-layout: fixed;
-	width: 100%;
 
 /*Colors for all Races*/
 
@@ -225,20 +229,12 @@ table {
 	color: #41c75c;
 }
 
-.Dwarf {
-	color: #5e2e0f;
-}
-
 .Vedalken {
 	color: #6990b3;
 }
 
 .Vampire {
 	color: #7e47a6;
-}
-
-.Giant {
-	color: #6e6d6c;
 }
 
 .Centaur {
@@ -249,20 +245,8 @@ table {
 	color:#e8e11a;
 }
 
-.Loxodon {
-	color: #70ebeb;
-}
-
 .Merfolk {
 	color: #297bed;
-}
-
-.Dryad {
-	color: #248713;
-}
-
-.Faerie {
-	color: #caa5e6;
 }
 
 .Weird {
@@ -273,16 +257,8 @@ table {
 	color: #ba8d5c;
 }
 
-.Minotaur {
-	color: #c99e3b;
-}
-
 .Demon {
 	color: #c42d1c;
-}
-
-.Spirit {
-	color: #3e2dad;
 }
 
 .Angel {
@@ -300,8 +276,6 @@ table {
 	width: 100%;
 	margin: 0 auto;
 }
-
-/*Created by Molly Cameron*/
 
 footer {
 	height: 20px;
@@ -323,15 +297,4 @@ footer {
 		width: 100%;
 		top: 0;
 	}
-}
-
-div.dice {
-	float: left;
-	width: 32px;
-	background: #f5f5f5;
-	border: #999 1px solid;
-	padding: 10px;
-	font-size: 24px;
-	text-align: center;
-	margin: 5px;
 }
