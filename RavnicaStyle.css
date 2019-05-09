@@ -151,7 +151,14 @@ img {
 	margin-right: auto;
 	width: 25%;
 	padding: 10px 15px 20px 10px;
+	transition: transform .2s;
 }
+
+.Race:hover {
+	transform: scale(1.5);
+}
+
+
 
 p {
 	text-align: center;
