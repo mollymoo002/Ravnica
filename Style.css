@@ -1,0 +1,102 @@
+.topnav {
+    background-color: #49b690;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #3b9374;
+    color: white;
+  }
+  
+  .topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  iframe {
+    display: block;
+    width: 1000px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  h2,
+  h1,
+  p {
+    text-align: center;
+  }
+  
+  img {
+    display: block;
+    width: 1000px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  button {
+    display: block;
+    width: 300px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 30px;
+    transition: transform .2s;
+    background-color: #7f7f80;
+  }
+  
+  button:hover {
+    transform: scale(1.3);
+  }
+  
+  .videogames:hover {
+    background-image: url("Photos/video games.jpg");
+  }
+  
+  .coding:hover {
+    background-image: url("Photos/coding.jpg");
+  }
+  
+  .reading:hover {
+    background-image: url("Photos/reading.jpg");
+  }
+  
+  .reading:hover a {
+    color: black;
+  }
+  
+  .internet:hover {
+    background-image: url("Photos/internet.jpg");
+  }
+  
+  .volunteering:hover {
+    background-image: url("Photos/volunteer.jpg");
+  }
+  .volunteering:hover a {
+    color: black;
+  }
+  
+  button a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  footer {
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  #SimsWebsite {
+      text-align: center;
+  }
