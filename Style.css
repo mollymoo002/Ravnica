@@ -1,6 +1,7 @@
 .topnav {
     background-color: #49b690;
     overflow: hidden;
+    margin: 0 auto;
   }
   
   .topnav a {
@@ -29,19 +30,41 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+  h1 {
+    color:#3b9374;
+    font-family: 'Bodoni Moda', serif;
+    text-align: center;
+  }
   
   h2,
-  h1,
-  p {
+  h3, {
     text-align: center;
   }
   
   img {
     display: block;
-    width: 1000px;
-    height: 700px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  #mollymain {
+    border: 15px solid blue;
+    border-radius: 25px;
+    height: 700px;
+    width: 1000px;
+  }
+
+  #mollyportrait {
+    height: 400px;
+    width: 500px;
+    border-radius: 50%;
+  }
+
+  #hobbies {
+    text-align: center;
+    padding-top: 30px;
+    font-weight: bold;
   }
   
   button {
