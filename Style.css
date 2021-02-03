@@ -1,5 +1,5 @@
 .topnav {
-    background-color: #49b690;
+    background-color: #BBCC9B;
     width: 100%;
   }
 
@@ -12,12 +12,12 @@
   }
   
   .topnav a:hover {
-    background-color: #3b9374;
+    background-color: #59614A;
     color: white;
   }
   
   .topnav a.active {
-    background-color: #4CAF50;
+    background-color: #59614A;
     color: white;
   }
   
@@ -54,9 +54,8 @@
 
   #mollyportrait {
     height: 400px;
-    width: 500px;
-    border-radius: 50%;
-    border: 2px solid black;
+    width: 550px;
+    border-radius: 25%;
   }
 
   #hobbies {
@@ -78,7 +77,7 @@
     font-weight: bold;
     font-size: 30px;
     transition: transform .2s;
-    background-color: #7f7f80;
+    background-color: black;
   }
   
   .videogames:hover {
@@ -121,16 +120,24 @@
   footer {
     text-align: center;
     padding-top: 50px;
+    background-color: #BBCC9B;
+    padding: 20px 20px;
+    margin-top: 50px;
   }
 
   #SimsWebsite {
       text-align: center;
+      color: #91B352;
   }
   footer a {
     width: 100%;
-    border: 2px solid black;
-    padding: 15px 20px;
+    padding: 20px 20px;
     text-decoration: none;
     color: white;
-    background-color: black;
+    margin-top: 50px;
+  }
+
+  footer a:hover {
+    background-color: #59614A;
+    color: white;
   }
